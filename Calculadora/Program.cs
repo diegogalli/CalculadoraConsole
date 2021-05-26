@@ -35,16 +35,16 @@ namespace Calculadora
                 switch (escolha.ToUpper())
                 {
                     case "A":
-                        Console.WriteLine($"A soma dos dois numeros é : { n1 + n2}");
+                        Console.WriteLine($"A soma dos dois numeros é : {Operacoes.Soma(n1,n2)}");
                         break;
                     case "B":
-                        Console.WriteLine($"A soma dos dois numeros é : { n1 - n2}");
+                        Console.WriteLine($"A subtração dos dois numeros é : { Operacoes.Subtracao(n1,n2)}");
                         break;
                     case "C":
-                        Console.WriteLine($"A soma dos dois numeros é : { n1 * n2}");
+                        Console.WriteLine($"A multiplicação dos dois numeros é : { Operacoes.Multiplicacao(n1,n2)}");
                         break;
                     case "D":
-                        Console.WriteLine($"A soma dos dois numeros é : { n1 / n2}");
+                        Console.WriteLine($"A divisão dos dois numeros é : { Operacoes.Divisao(n1,n2)}");
                         break;
 
                     default:
