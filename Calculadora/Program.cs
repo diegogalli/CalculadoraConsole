@@ -29,38 +29,7 @@ namespace Calculadora
 
             escolha = Console.ReadLine();
 
-            //if (escolha.Length == 1)
-            //{
-            //    if (escolha.ToUpper() == "A")
-            //    {
-            //        Console.WriteLine($"A soma dos dois numeros é : { n1 + n2}");
-            //    }
-            //    else if (escolha.ToUpper() == "B")
-            //    {
-            //        Console.WriteLine($"A subtração dos dois numeros é : { n1 - n2}");
-            //    }
-            //    else if (escolha.ToUpper() == "C")
-            //    {
-            //        Console.WriteLine($"A multiplicação dos dois numeros é : { n1 * n2}");
-            //    }
-            //    else if (escolha.ToUpper() == "D")
-            //    {
-            //        Console.WriteLine($"A divisão dos dois numeros é : { n1 / n2}");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("ERROR vc digitou uma opção invalida.");
-
-
-            //    }
-
-            //}
-            //else
-            //{
-            //    Console.WriteLine("ERROR.");
-            //}
-
-            //Condição SWtich
+            
             if (escolha.Length == 1)
             {
                 switch (escolha.ToUpper())
@@ -81,16 +50,12 @@ namespace Calculadora
                     default:
                         Console.WriteLine("FATAL ERROR! : Você escolheu uma opção invalida! Tente novamente");
                         break;
-
-
                 }
             }
             else
             {
                 Console.WriteLine("ERROR.");
             }
-
-
 
             Console.WriteLine("");
             Console.WriteLine("Digite uma tecla para sair.");
